@@ -24,7 +24,6 @@ double Conversion::ConvertSpeed(double value, string unitA, string unitB)
         else if (unitB == "kmph") { result = value * 1.609; }
         else if (unitB == "kn") { result = value / 1.151; }
         else if (unitB == "ft") { result = value * 1.467; }
-        else if (unitB == "sol") { result = (value / 6.706) / 10; }
     }
     else if (unitA == "kn")
     {
